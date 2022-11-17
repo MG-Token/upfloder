@@ -17,18 +17,23 @@ sudo apt update
 sudo apt upgrade
 
 sudo apt install mono-complete wget unzip
+```
 
-//On Server Side:
+Server:
 
-wget https://github.com/MG-Token/upfloder/releases/download/V1.0.0.0/upfloder-server.linux.x86_x64.zip
+```bash
 
-unzip upfloder-server.linux.x86_x64.zip
+wget https://github.com/MG-Token/upfloder/releases/download/V2.0.0.0/upfloder-server.zip
 
-//On Client Side:
+unzip upfloder-server.zip
 
-wget https://github.com/MG-Token/upfloder/releases/download/V1.0.0.0/upfloder.linux.x86_x64.zip
+Client:
 
-unzip upfloder.linux.x86_x64.zip
+```bash
+
+wget https://github.com/MG-Token/upfloder/releases/download/V2.0.0.0/upfloder.zip
+
+unzip upfloder.zip
 ```
 
 #### Centos:
@@ -39,18 +44,23 @@ sudo yum update
 sudo yum upgrade
 
 sudo yum install mono-complete wget unzip
+```
 
-//On Server Side:
+Server:
 
-wget https://github.com/MG-Token/upfloder/releases/download/V1.0.0.0/upfloder-server.linux.x86_x64.zip
+```bash
 
-unzip upfloder-server.linux.x86_x64.zip
+wget https://github.com/MG-Token/upfloder/releases/download/V2.0.0.0/upfloder-server.zip
 
-//On Client Side:
+unzip upfloder-server.zip
 
-wget https://github.com/MG-Token/upfloder/releases/download/V1.0.0.0/upfloder.linux.x86_x64.zip
+Client:
 
-unzip upfloder.linux.x86_x64.zip
+```bash
+
+wget https://github.com/MG-Token/upfloder/releases/download/V2.0.0.0/upfloder.zip
+
+unzip upfloder.zip
 ```
 
 #### Termux:
@@ -61,18 +71,23 @@ sudo pkg update
 sudo pkg upgrade
 
 sudo pkg install mono-complete wget unzip
+```
 
-//On Server Side:
+Server:
 
-wget https://github.com/MG-Token/upfloder/releases/download/V1.0.0.0/upfloder-server.linux.x86_x64.zip
+```bash
 
-unzip upfloder-server.linux.x86_x64.zip
+wget https://github.com/MG-Token/upfloder/releases/download/V2.0.0.0/upfloder-server.zip
 
-//On Client Side:
+unzip upfloder-server.zip
 
-wget https://github.com/MG-Token/upfloder/releases/download/V1.0.0.0/upfloder.linux.x86_x64.zip
+Client:
 
-unzip upfloder.linux.x86_x64.zip
+```bash
+
+wget https://github.com/MG-Token/upfloder/releases/download/V2.0.0.0/upfloder.zip
+
+unzip upfloder.zip
 ```
 
 #### Windows:
@@ -80,34 +95,45 @@ Download and install .NET Framework 4.8 and choose a [Releases](https://github.c
 
 # Using
 #### Ubuntu/Centos/Termux:
+
+Client:
+
 ```bash
-
-//On Client Side:
-
 mono upfloder your_server_ip port size thread&consize
+```
 
-//On Server Side:
+Server:
 
+```bash
 mono upfloder-server port
 ```
+
 #### Windows:
+
 open a cmd and cd to path and use this command:
+
+Client:
+
 ```bash
-//On Client Side:
-
 upfloder your_server_ip port size thread&consize
+```
 
-//On Server Side:
+Server:
 
+```bash
 upfloder-server port
 ```
+
 #### ARGS:
-```
+
 your_server_ip: is an ip adreass where upfloder-server is running or you can use dns servers like 1.1.1.1 or 8.8.8.8 (Default: 127.0.0.1)
+
 port: is an a port number to connect with udp protcol where upfloder-server is runned or if you use dns adreass like 1.1.1.1 must set on port 53 (Default: 8090)
+
 size: number of MB size must be transport if set on 0 its will upload unlimeted bytes...
+
 thread&consize: number of thread or connection to use...
-```
+
 #### Example:
 
 Client:
