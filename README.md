@@ -102,13 +102,18 @@ upfloder your_server_ip port size thread&consize
 upfloder-server port
 ```
 #### ARGS:
-```bash
+```
 your_server_ip: is an ip adreass where upfloder-server is running or you can use dns servers like 1.1.1.1 or 8.8.8.8 (Default: 127.0.0.1)
 port: is an a port number to connect with udp protcol where upfloder-server is runned or if you use dns adreass like 1.1.1.1 must set on port 53 (Default: 8090)
 size: number of MB size must be transport if set on 0 its will upload unlimeted bytes...
 thread&consize: number of thread or connection to use...
 ```
-
+#### Example:
+Client:
+```bash
+upfloder 127.0.0.1 8090 0 25
+```
+https://github.com/MG-Token/upfloder/blob/main/c.jpg?raw=true
 # Specifications
 
 No buffer limit
