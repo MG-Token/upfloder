@@ -20,6 +20,12 @@ namespace upfloder
             rnd.NextBytes(b);
             return b;
         }
+        public static string RandomString(int length)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvxwyz0123456789";
+            return new string(Enumerable.Repeat(chars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
+        }//MAYBE NEED IN THE FUTURE...
         static void Main(string[] args)
         {
             Console.WriteLine("https://github.com/mg-token");
