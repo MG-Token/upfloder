@@ -103,5 +103,21 @@ upfloder-server port
 ```
 #### ARGS:
 ```bash
-
+your_server_ip: is an ip adreass where upfloder-server is running or you can use dns servers like 1.1.1.1 or 8.8.8.8 (Default: 127.0.0.1)
+port: is an a port number to connect with udp protcol where upfloder-server is runned or if you use dns adreass like 1.1.1.1 must set on port 53 (Default: 8090)
+size: number of MB size must be transport if set on 0 its wil lupload unlimeted bytes...
+thread&consize: number of thread or connection to use...
 ```
+
+# Specifications
+No buffer limit
+No RAN-CPU usage
+No data save 
+Fast-High speed (UDP)
+Using Random Byte(0-255) and Random Buffer size (60000-65000 standrad udp buf size)
+Undetectable
+
+# Donate
+
+USDT TRC20: ```TNjbCfcg2mMokxnbWFkNJJRS8KpFEBxx9X```
+
