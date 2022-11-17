@@ -26,6 +26,7 @@ Server:
 wget https://github.com/MG-Token/upfloder/releases/download/V2.0.0.0/upfloder-server.zip
 
 unzip upfloder-server.zip
+```
 
 Client:
 
@@ -53,6 +54,7 @@ Server:
 wget https://github.com/MG-Token/upfloder/releases/download/V2.0.0.0/upfloder-server.zip
 
 unzip upfloder-server.zip
+```
 
 Client:
 
@@ -80,6 +82,7 @@ Server:
 wget https://github.com/MG-Token/upfloder/releases/download/V2.0.0.0/upfloder-server.zip
 
 unzip upfloder-server.zip
+```
 
 Client:
 
