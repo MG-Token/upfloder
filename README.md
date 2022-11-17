@@ -119,7 +119,7 @@ No data save
 
 Fast-High speed (UDP)
 
-Using Random Byte(0-255) and Random Buffer size (60000-65000 standrad udp buf size)
+Using Random Byte array(0-255) and Random Buffer size (60000-65000 standrad udp buf size)
 
 Undetectable
 
