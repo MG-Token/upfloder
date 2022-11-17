@@ -109,11 +109,21 @@ size: number of MB size must be transport if set on 0 its will upload unlimeted 
 thread&consize: number of thread or connection to use...
 ```
 #### Example:
+
 Client:
+
 ```bash
 upfloder 127.0.0.1 8090 0 25
 ```
-https://github.com/MG-Token/upfloder/blob/main/c.jpg?raw=true
+![c](https://user-images.githubusercontent.com/20111218/202410572-f4ed19da-22da-49d0-9d31-1216d96b9f00.jpg)
+
+Server:
+
+```bash
+upfloder-server 8090
+```
+![s](https://user-images.githubusercontent.com/20111218/202410576-65b95b7a-9792-454e-98e3-bf6791d3d57a.jpg)
+
 # Specifications
 
 No buffer limit
@@ -131,4 +141,6 @@ Undetectable
 # Donate
 
 USDT TRC20: ```TNjbCfcg2mMokxnbWFkNJJRS8KpFEBxx9X```
+
+
 
