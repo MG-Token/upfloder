@@ -1,8 +1,0 @@
-C:\Users\MG\source\repos\upfloder\upfloder\bin\Debug\upfloder.exe.config
-C:\Users\MG\source\repos\upfloder\upfloder\bin\Debug\upfloder.exe
-C:\Users\MG\source\repos\upfloder\upfloder\bin\Debug\upfloder.pdb
-C:\Users\MG\source\repos\upfloder\upfloder\obj\Debug\upfloder.csproj.AssemblyReference.cache
-C:\Users\MG\source\repos\upfloder\upfloder\obj\Debug\upfloder.csproj.SuggestedBindingRedirects.cache
-C:\Users\MG\source\repos\upfloder\upfloder\obj\Debug\upfloder.csproj.CoreCompileInputs.cache
-C:\Users\MG\source\repos\upfloder\upfloder\obj\Debug\upfloder.exe
-C:\Users\MG\source\repos\upfloder\upfloder\obj\Debug\upfloder.pdb
