@@ -96,7 +96,7 @@ unzip upfloder.zip
 #### Windows:
 Download and install .NET Framework 4.8 and choose a [Releases](https://github.com/MG-Token/upfloder/releases)
 
-# Using
+# Using/RUN
 #### Ubuntu/Centos/Termux:
 
 Client:
